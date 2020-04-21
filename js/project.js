@@ -1,4 +1,4 @@
-var quotes; //the object containing the arrays of quotes
+
 var getRandomQuote;
 
 let quotes = [
