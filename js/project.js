@@ -20,5 +20,5 @@ let quotes = [
 ];
 
 for (let prop in quotes) {
-	document.write(quotes[prop]);
+	console.log(quotes[prop]);
 };
