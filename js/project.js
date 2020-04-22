@@ -19,6 +19,6 @@ let quotes = [
 	},
 ];
 
-document.write(quotes());
-
-console.log(quotes());
+for (let prop in quotes) {
+	document.write(quotes[prop]);
+};
