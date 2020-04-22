@@ -16,7 +16,8 @@ let quotes = [
 	},
 	{quote: "They lived and laughed and loved and left.",
 	source: "-James Joyce"
-]
+	},
+];
 
 document.write(quotes());
 
