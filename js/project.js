@@ -1,6 +1,3 @@
-
-var getRandomQuote;
-
 let quotes = [
 	{quote: "A great man is alway willing to be little.",
 	source: "-R.W. Emerson"
@@ -12,13 +9,28 @@ let quotes = [
 	source: "-John Muir"
 	},
 	{quote: "We don't see things as they are, we see them as we are.",
-	source: "-Anais Nin"
+	source: "-Anaïs Nin"
 	},
 	{quote: "They lived and laughed and loved and left.",
 	source: "-James Joyce"
 	},
 ];
 
+function getRandomQuote() {
+	let randomQuote = Math.floor(Math.random() * quotes.length);
+	return quotes[randomQuote];
+};
+
+
+
+/*// 
+Used for testing random quote function
+console.log(getRandomQuote());
+*/
+
+/*// 
+Used for testing 'quotes' array
 for (let prop in quotes) {
 	console.log(quotes[prop]);
 };
+*/
