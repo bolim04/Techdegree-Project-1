@@ -34,7 +34,7 @@ function printQuote(){
 		if(myRandomQuote.year) {
 			storeHTML += <span class="year">`--Year: ${myRandomQuote.year}`</span>
 		};
-		</p>
+		storeHTML += </p>
 };
 
 document.getElementbyId('quote-box').innerHTML = storeHTML;
