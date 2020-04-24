@@ -1,4 +1,18 @@
 README 
 
 Welcome to my first Team Treehouse Full Stack Web Developer Techdegree Project!
+Title of project: A random quote generator.
+This webpage shows a random quote, and gives you the option to show another quote if the 'Show another quote' button is clicked.
 
+The code includes an array or 5 objects that include values for the properties 'quote' and 'source'.
+One of the object had to include the properties 'citation' and 'year'.
+
+A function named 'getRandomQuote' randomized the quote objects and returns one when when called.
+
+A function named 'printQuote' uses the 'getRandomQuote' function to write the random returned quote to the webpage.
+In this function, the HTML string was added onto using template literals. The quote and source was added for every quote object.
+Using 'if' statememts, the HTML string was added onto using template literals again if the quote object contained a citation or year property.
+
+The function 'printQuote' is called to show the random quote object in the webpage with the associated properties.
+
+The 'printQuote' function will run again, if the 'Show another quote' is clicked in the webpage.
