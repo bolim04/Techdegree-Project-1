@@ -5,7 +5,7 @@ Title of project: A random quote generator.
 This webpage shows a random quote, and gives you the option to show another quote if the 'Show another quote' button is clicked.
 
 The code includes an array or 5 objects that include values for the properties 'quote' and 'source'.
-One of the object had to include the properties 'citation' and 'year'.
+One of the objects had to include the properties 'citation' and 'year'.
 
 A function named 'getRandomQuote' randomized the quote objects and returns one when when called.
 
