@@ -55,5 +55,8 @@ function printQuote() {
 //The 'printQuote' is called to return the final HTML string 
 printQuote();
 
-//The following code below was provided by Team Treehouse to allow the webpage to show another random quote object from the array when the 'Show another quote' button is clicked on in the browser
+/**
+* The following code below was provided by Team Treehouse
+* It allows the webpage to show another random quote object from the array when the 'Show another quote' button is clicked on in the webpage
+*/
 document.getElementById('load-quote').addEventListener("click", printQuote, false);
